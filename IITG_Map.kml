@@ -3,90 +3,6 @@
   <Document>
     <name>IITG Map</name>
     <description>Map of IITG</description>
-    <Style id="icon-1899-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1899-C2185B-nodesc-normal">
-      <IconStyle>
-        <color>ff5b18c2</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-C2185B-nodesc-highlight">
-      <IconStyle>
-        <color>ff5b18c2</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-C2185B-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-C2185B-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-C2185B-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="poly-0288D1-1200-77-nodesc-normal">
       <LineStyle>
         <color>ffd18802</color>
@@ -1264,16 +1180,6 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Rolls Mania
-</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            91.6986215,26.191663,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>New Guest House
 </name>
         <styleUrl>#poly-FF5252-1200-77-nodesc</styleUrl>
@@ -1418,16 +1324,6 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>Basketball Courts
-</name>
-        <styleUrl>#icon-1899-C2185B-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            91.6978546,26.1919533,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>Basketball court
 </name>
         <styleUrl>#poly-880E4F-1200-77-nodesc</styleUrl>
@@ -1464,16 +1360,6 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-      </Placemark>
-      <Placemark>
-        <name>cricket ground
-</name>
-        <styleUrl>#icon-1899-C2185B-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            91.6966864,26.190477,0
-          </coordinates>
-        </Point>
       </Placemark>
       <Placemark>
         <name>Food Court
@@ -1550,16 +1436,6 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
-      </Placemark>
-      <Placemark>
-        <name>Volleyball Courts
-</name>
-        <styleUrl>#icon-1899-C2185B-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            91.6973286,26.1919517,0
-          </coordinates>
-        </Point>
       </Placemark>
       <Placemark>
         <name>Tennis Courts
